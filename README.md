@@ -2,7 +2,7 @@
 
 Personal portfolio site built with Middleman. Deployed on Netlify.
 
-Based on [dmbf29/middleman-template]. Refer to the original repo for detailed setup, deploy, and configuration instructions.
+Based on [dmbf29/middleman-template](https://github.com/dmbf29/middleman-template). Refer to the original repo for detailed setup, deploy, and configuration instructions.
 
 ## What I changed
 
