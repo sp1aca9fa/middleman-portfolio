@@ -1,4 +1,4 @@
-# Raphael Barbosa — Portfolio
+# Raphael's Portfolio
 
 Personal portfolio site built with Middleman. Deployed on Netlify.
 
