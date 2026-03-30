@@ -8,7 +8,7 @@ Based on [dmbf29/middleman-template](https://github.com/dmbf29/middleman-templat
 
 The original template had a vertical layout: name and photo at the top, then a scroll to reach projects. I restructured it to a two-column banner (photo left, intro right) with project cards directly below, so the projects content is visible on load.
 
-Projects are data-driven via `data/projects.yml` — each card pulls its name, description, image, and links from that file.
+Projects are data-driven via `data/projects.yml`: each card pulls its name, description, image, and links from that file.
 
 ## Stack
 
