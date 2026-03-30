@@ -1,10 +1,12 @@
 .button-social {
-  padding: 0 16px;
+  padding: 0 16px 0 0;
   position: relative;
   font-size: 20px;
+  color: black;
+  transition: color 0.2s;
 
   &:hover {
-    opacity: 0.7;
+    color: $gray;
   }
 }
 

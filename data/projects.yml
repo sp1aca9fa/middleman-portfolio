@@ -1,34 +1,53 @@
-- name: Longest Word Game
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+- name: Forin
+  description: A data aggregation and analysis platform on foreign residents in Japan.
+  image: projects/Forin.png
+  url: https://www.forin.me
+  github: https://github.com/sp1aca9fa/forin
   online: true
+  image_fit: cover
+  image_position: top center
 
-- name: Movie Watchlist
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+- name: Dōjin Master
+  description: A Ruby on Rails web app that helps dōjin fans discover, prioritize, and navigate event booths.
+  image: projects/DōjinMaster.png
+  url: https://dojinmaster.app/
+  github: https://github.com/Amakase/dojin-master
   online: true
+  image_fit: cover
+  image_position: top left
 
-- name: AI Assistant
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+- name: PR Tomo
+  description: A Ruby on Rails web app to guides users through Japan’s PR visa process using structured AI chats.
+  image: projects/PRTomo.png
+  url: https://japanese-pr-helper-fa4985598578.herokuapp.com/
+  github: https://github.com/jonathankiichikimura/japanese-pr-helper
   online: true
+  image_fit: cover
+  image_position: top left
 
-- name: Final project
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
+- name: WatchList
+  description: A Rails watchlist app where users organize movies into custom lists.
+  image: projects/WatchList.png
+  url: https://rails-watch-list-2198-rb-0794a5a934af.herokuapp.com/
+  github: https://github.com/sp1aca9fa/rails-watch-list
   online: true
+  image_fit: cover
+  image_position: top center
 
-- name: Yelp
-  description: Decent description of the app
-  image: projects/placeholder.png
-  url: https://www.google.com
-  github: https://www.github.com
-  online: false
+- name: todoListInReact
+  description: A to-do list app built with React.
+  image: projects/todoListInReact.png
+  url: http://sp1aca9fa.github.io/todoListInReact/
+  github: https://github.com/sp1aca9fa/todoListInReact
+  online: true
+  image_fit: cover
+  image_position: top center
+
+- name: Maps
+  description: Address-to-coordinates geocoder with map visualization using OpenStreetMap and Leaflet.
+  image: projects/Maps.png
+  url: http://sp1aca9fa.github.io/maps/
+  github: https://github.com/sp1aca9fa/maps
+  online: true
+  image_fit: cover
+  image_position: top center

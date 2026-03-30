@@ -1,3 +1,17 @@
 .banner {
-  height: 40vh;
+  padding: 3rem 0;
+
+  p, h1 {
+    margin-bottom: 0.4rem;
+  }
+
+  .avatar {
+    width: 160px;
+  }
+
+  @media (min-width: 768px) {
+    .avatar {
+      width: 260px;
+    }
+  }
 }
