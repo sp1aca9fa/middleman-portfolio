@@ -2,6 +2,7 @@
   description: AI-powered job hunting dashboard built for the Tokyo tech market. Paste a job listing to get a fit score, cover letter, and interview prep, then track your pipeline in a Kanban board.
   description_ja: 東京のテック就活に特化したAIダッシュボード。求人票をペーストするだけで適合度スコア、カバーレター、面接対策を自動生成し、パイプラインをカンバンで管理できます。
   image: projects/Naitei.png
+  youtube:
   url: https://naitei-frontend.vercel.app/
   github: https://github.com/sp1aca9fa/naitei
   online: true
@@ -12,6 +13,7 @@
   description: A data aggregation and analysis platform on foreign residents in Japan.
   description_ja: 日本在住の外国人に関するデータの集計・分析プラットフォーム。
   image: projects/Forin.png
+  youtube:
   url: https://www.forin.me
   github: https://github.com/sp1aca9fa/forin
   online: true
@@ -22,6 +24,7 @@
   description: A Ruby on Rails web app that helps dōjin fans discover, prioritize, and navigate event booths.
   description_ja: 同人ファンがイベントブースの発見・優先順位付け・ナビゲートをサポートするRuby on Railsウェブアプリ。
   image: projects/DōjinMaster.png
+  youtube:
   url: https://dojinmaster.app/
   github: https://github.com/Amakase/dojin-master
   online: true
@@ -31,6 +34,7 @@
 - name: PR Tomo
   description: A Ruby on Rails web app to guides users through Japan’s PR visa process using structured AI chats.
   description_ja: 構造化されたAIチャットで日本のPRビザ申請プロセスをガイドするRuby on Railsウェブアプリ。
+  youtube:
   image: projects/PRTomo.png
   url: https://japanese-pr-helper-fa4985598578.herokuapp.com/
   github: https://github.com/jonathankiichikimura/japanese-pr-helper
@@ -42,6 +46,7 @@
   description: A Rails watchlist app where users organize movies into custom lists.
   description_ja: 映画をカスタムリストで管理するRailsウォッチリストアプリ。
   image: projects/WatchList.png
+  youtube:
   url: https://rails-watch-list-2198-rb-0794a5a934af.herokuapp.com/
   github: https://github.com/sp1aca9fa/rails-watch-list
   online: true
@@ -52,6 +57,7 @@
   description: A to-do list app built with React.
   description_ja: Reactで構築したTodoリストアプリ。
   image: projects/todoListInReact.png
+  youtube:
   url: http://sp1aca9fa.github.io/todoListInReact/
   github: https://github.com/sp1aca9fa/todoListInReact
   online: true
@@ -62,6 +68,7 @@
   description: Address-to-coordinates geocoder with map visualization using OpenStreetMap and Leaflet.
   description_ja: OpenStreetMapとLeafletを使ったアドレス座標変換・地図表示ツール。
   image: projects/Maps.png
+  youtube:
   url: http://sp1aca9fa.github.io/maps/
   github: https://github.com/sp1aca9fa/maps
   online: true

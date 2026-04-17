@@ -39,9 +39,34 @@ function detectLanguage() {
   return browser.startsWith("ja") ? "ja" : "en";
 }
 
+function initVideoCards() {
+  document.querySelectorAll(".card-product[data-youtube]").forEach((card) => {
+    const id = card.dataset.youtube;
+    const iframe = card.querySelector(".card-video");
+    const img = card.querySelector("img");
+
+    card.addEventListener("mouseenter", () => {
+      iframe.src = `https://www.youtube.com/embed/${id}?autoplay=1&mute=1&loop=1&playlist=${id}&controls=0&modestbranding=1`;
+      card._showTimer = setTimeout(() => {
+        img.style.opacity = "0";
+        iframe.style.opacity = "1";
+      }, 800);
+    });
+
+    card.addEventListener("mouseleave", () => {
+      clearTimeout(card._showTimer);
+      iframe.src = "";
+      img.style.opacity = "1";
+      iframe.style.opacity = "0";
+    });
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const lang = detectLanguage();
   applyLanguage(lang);
+
+  initVideoCards();
 
   document.getElementById("lang-toggle").addEventListener("click", () => {
     const current = localStorage.getItem("lang") || "en";
