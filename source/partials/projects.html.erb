@@ -1,8 +1,8 @@
-<div class="row mt-2 mb-5 justify-content-center">
+<div class="row g-0 mt-2 mb-5 justify-content-center">
   <div class="col-12 col-lg-8">
     <div class="container">
       <div id="projects">
-        <h2> Projects</h2>
+        <h2 data-i18n="projects_heading">Projects</h2>
         <div class="cards">
           <% data.projects.each do |project| %>
             <div class="card-product">
@@ -21,7 +21,7 @@
                     <% end %>
                   </div>
                 </div>
-                <p><%= project.description %></p>
+                <p data-en="<%= project.description %>" data-ja="<%= project.description_ja %>"><%= project.description %></p>
               </div>
             </div>
           <% end %>

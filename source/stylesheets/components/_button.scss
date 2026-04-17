@@ -1,3 +1,20 @@
+#lang-toggle {
+  background: transparent;
+  border: 1.5px solid currentColor;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  color: black;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
 .button-social {
   padding: 0 16px 0 0;
   position: relative;
